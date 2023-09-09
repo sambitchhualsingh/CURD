@@ -99,6 +99,7 @@ nav a:active, nav a:hover{
     border: none;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-success {
@@ -113,5 +114,36 @@ nav a:active, nav a:hover{
 
 .btn-info {
     background-color: slateblue;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+table,tr,th,td{
+    border:  1px solid #222;
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #888;
     color: #fff;
 }
